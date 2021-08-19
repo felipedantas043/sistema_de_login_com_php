@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: linear-gradient(to right, rgb(89, 88, 168), rgb(40, 40, 219));
+}
+header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(176, 187, 250);
+}
+ul{
+    list-style: none;
+
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16pt;
+    padding: 10px;
+}
+li a:hover{
+    background-color: rgba(0, 0, 0, 0.479);
+    color: white;
+    border-radius: 20px;
+
+    
+}
+main{
+    width: 500px;
+    padding: 20px;
+    margin: 100px auto;
+}
+.form{
+    display: grid;
+}
+#email, #password{
+    padding: 10px;
+    width: 100%;
+    border-radius: 6px;
+    border: none;
+}
+#botao{
+    padding: 15px;
+    width: 170px;
+    margin: 20px auto;
+    font-size: 15pt;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(202, 202, 245);
+}
+#botao:hover{
+    cursor: pointer;
+}
+label{
+    color: white;
+    font-size: 17pt;
+    padding-top: 20px;
+}
